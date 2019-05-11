@@ -11,7 +11,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar( title: Text("HI Messeger"),centerTitle: true,),
-      body: chatScreen(),
+      body:ChatScreen()
+
     );
   }
 }
